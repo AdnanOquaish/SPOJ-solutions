@@ -127,16 +127,24 @@
 		{
 			int c = 0, i, len = 0; while(n[++len]);
 			for(i = len; n[--i] == '0'; n[i] = '9');
-			if(len == 2 && n[1] == '1') { puts("1"); continue; }
+			if(len == 2 && n[1] == '1') 
+			{
+				prs("1");
+				continue; 
+			}
 			--n[i];
-			rof(i,len,0) {n[i] = '0' + (c = c + (n[i] - '0') * 2) % 10; c /= 10;}
+			rof(i,len,0) 
+			{
+				n[i] = '0' + (c = c + (n[i] - '0') * 2) % 10; 
+				c /= 10;
+			}
 			if(c)
 			{
 				n[0] = c + '0';
-				puts(n);
+				prs(n);
 			} 
 			else 
-				puts(n+1);
+				prs(n+1);
 		}
 		return 0;
 	}
