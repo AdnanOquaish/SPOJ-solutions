@@ -4,44 +4,44 @@
  *******************************************************************************/
     #include <bits/stdc++.h>
     #include <ext/pb_ds/assoc_container.hpp>
-	#include <ext/pb_ds/tree_policy.hpp>
+    #include <ext/pb_ds/tree_policy.hpp>
     
     using namespace __gnu_pbds;
     using namespace std;
      
-    typedef long long int ll;
-    typedef long int li;
-    typedef unsigned int ui;
-    typedef pair<int,int> pii;
-    typedef pair<ll,int> pli;
-    typedef pair<int,ll> pil;
-    typedef pair<ll,ll> pll;
-    typedef list<int> lsi;
+	typedef long long int ll;
+    	typedef long int li;
+    	typedef unsigned int ui;
+    	typedef pair<int,int> pii;
+    	typedef pair<ll,int> pli;
+    	typedef pair<int,ll> pil;
+    	typedef pair<ll,ll> pll;
+    	typedef list<int> lsi;
 	typedef vector<lsi> vls;
 	typedef set<int> sti;
 	typedef vector<int> vi;
-    typedef vector<long int> vl;
-    typedef vector<ll> vll;
+    	typedef vector<long int> vl;
+    	typedef vector<ll> vll;
 	template <class T> inline void smax(T &x,T y){ x = max((x), (y));}
 	template <class T> inline void smin(T &x,T y){ x = min((x), (y));} 
-     
-     
-    #define PB                           push_back
-    #define pb 							 pop_back()
-    #define MP                           make_pair
-    #define LB                           lower_bound
-    #define UB                           upper_bound
-    #define B                            begin()
-    #define E                            end()
-    #define F                            first
-    #define S                            second
-    #define SZ                           size()
-    #define sqr(a)						 (a*a)
-    #define MIN(x,y)                     (x<y ? x : y)
-    #define MAX(x,y)                     (x>y ? x : y)
-    #define ABS(x)						 (x>0 ? x : -1*x)
-    #define inp(x)						 cin>>x
-    #define out(x)						 cout<<x
+	     
+	     
+    	#define PB                           push_back
+    	#define pb 							 pop_back()
+	#define MP                           make_pair
+    	#define LB                           lower_bound
+    	#define UB                           upper_bound
+    	#define B                            begin()
+    	#define E                            end()
+    	#define F                            first
+    	#define S                            second
+    	#define SZ                           size()
+    	#define sqr(a)						 (a*a)
+    	#define MIN(x,y)                     (x<y ? x : y)
+    	#define MAX(x,y)                     (x>y ? x : y)
+    	#define ABS(x)						 (x>0 ? x : -1*x)
+    	#define inp(x)						 cin>>x
+    	#define out(x)						 cout<<x
 	#define scd(x)						 scanf("%d",&x)
 	#define scu(x)						 scanf("%u",&x)
 	#define scl(x)						 scanf("%ld",&x)
@@ -89,7 +89,7 @@
 	#define pr3lf(x,y,z)				 printf("%lf %lf %lf\n",x,y)
 	#define pr3llf(x,y,z)				 printf("%llf %llf %llf\n",x,y)
 	#define INF                          (int)1e9
-    #define EPS                          1e-9
+    	#define EPS                          1e-9
 	#define bitcount                     __builtin_popcount
 	#define gcd                          __gcd
 	#define forall(i,a,b)                for(int i=a;i<b;i++)
@@ -107,9 +107,9 @@
 	#define checkbit(n,b)                ((n >> b) & 1)
 	#define DREP(a)                      sort(all(a)); a.erase(unique(all(a)),a.end())
 	#define INDEX(arr,ind)               (lower_bound(all(arr),ind)-arr.begin())
-    #define parr(a,n)                    for(int o=0;o<n;o++) printf("%d ",a[o]);printf("\n")
-    #define parr1(a,n)                   for(int o=1;o<=n;o++) printf("%lld ",a[o]);printf("\n")
-    #define error(x)					 cerr << #x << " = " << (x) <<endl
+    	#define parr(a,n)                    for(int o=0;o<n;o++) printf("%d ",a[o]);printf("\n")
+    	#define parr1(a,n)                   for(int o=1;o<=n;o++) printf("%lld ",a[o]);printf("\n")
+    	#define error(x)					 cerr << #x << " = " << (x) <<endl
 	#define Error(a,b)					 cerr<<"( "<<#a<<" , "<<#b<<" ) = ( "<<(a)<<" , "<<(b)<<" )\n";
 	#define errop(a)					 cerr<<#a<<" = ( "<<((a).x)<<" , "<<((a).y)<<" )\n";
 	#define coud(a,b)					 cout<<fixed << setprecision((b)) << (a)
@@ -117,7 +117,7 @@
 	#define R(x)						 (((x)<<1)+1)
 	#define umap						 unordered_map
 	#define double 						 long double
-    #define MOD  					1000000007     
+    	#define MOD  					1000000007     
      
      
  int main()
